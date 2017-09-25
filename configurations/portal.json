@@ -1,6 +1,6 @@
 {
 	"name":"CBTCPAP07",
-	"url":"https://vmiis.github.io/modules/panels/panel.2.html",
+	"url":"/modules/dynamic/panel.html",
 	"parameters":{
 		"sql_participant" : "@('Volunteer_ID')+' '+@('Initials')+' '+@('DOB')"
 	},
@@ -19,7 +19,7 @@
 								"module_id":"participant",
 								"name":"Participants",
 								"table_id":"20004263",
-								"url":"/modules/participant.html",
+								"url":"/modules/dynamic/cbtcpap07/participant.html",
 								"counting":"1"
 							}
 						]
@@ -37,14 +37,14 @@
 								"module_id":"m_002_001",
 								"name":"Baseline PSG Sandman",
 								"table_id":"20006449",
-								"url":"/modules/task/Baseline_PSG_Sandman.html",
+								"url":"/modules/dynamic/cbtcpap07/task/Baseline_PSG_Sandman.html",
 								"counting":"1"
 							}
 							,{
 								"module_id":"m_002_002",
 								"name":"Patient Consent Form",
 								"table_id":"20006450",
-								"url":"/modules/task/Patient_Consent_Form.html",
+								"url":"/modules/dynamic/cbtcpap07/task/Patient_Consent_Form.html",
 								"counting":"1"
 							}
 						]
