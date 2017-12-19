@@ -75,9 +75,57 @@
 									,{"module_id":"m_005_017","name":"CPAP Summary","table_id":"20006480","url":"/modules/dynamic/cbtcpap07/task/CPAP_download.html","counting":"1"}
 									,{"module_id":"m_005_018","name":"CPAP Compliance Upload Doc","table_id":"20006479","url":"/modules/dynamic/cbtcpap07/task/Document_3.html","counting":"1"}
 
-									]}
+									]},
+									{"name":"6. CPAP Phone Contact at 3 Months (Wk 14)","modules":[
+										{"module_id":"m_006_001","name":"Call Log (Follow Up Phone)","table_id":"20006494","url":"/modules/dynamic/cbtcpap07/task/call_log.html","counting":"1"}
+										,{"module_id":"m_006_002","name":"CPAP Summary","table_id":"20006496","url":"/modules/dynamic/cbtcpap07/task/CPAP_download.html","counting":"1"}
+										,{"module_id":"m_006_002","name":"CPAP Compliance Upload","table_id":"20006495","url":"/modules/dynamic/cbtcpap07/task/Document_3.html","counting":"1"}
+										]}
+
 								]
 					}
-				]
+					,{
+						"sections":[
+							{"name":"7. Final Hospital Visit at 6 Months (Wk 28)","modules":[
+								{"module_id":"m_007_001","name":"Source Notes  Doc","table_id":"20006512","url":"/modules/dynamic/cbtcpap07/task/Source_Notes.html","counting":"1"}
+								,{"module_id":"m_007_002","name":"Anthropometric Data ","table_id":"20006499","url":"/modules/dynamic/cbtcpap07/task/Anthropometric_Data.html","counting":"1"}
+								,{"module_id":"m_007_003","name":"VAS(1)","table_id":"20006515","url":"/modules/dynamic/cbtcpap07/task/VAS.html","counting":"1"}
+								,{"module_id":"m_007_004","name":"LCT ","table_id":"20006506","url":"/modules/dynamic/cbtcpap07/task/LCT.html","counting":"1"}
+								,{"module_id":"m_007_005","name":"Stroop(Text) ","table_id":"20006514","url":"/modules/dynamic/cbtcpap07/task/Stroop.html","counting":"1"}
+								,{"module_id":"m_007_006","name":"Stroop(Colour) ","table_id":"20006513","url":"/modules/dynamic/cbtcpap07/task/Stroop.html","counting":"1"}
+								,{"module_id":"m_007_007","name":"2-Back ","table_id":"20006497","url":"/modules/dynamic/cbtcpap07/task/Nback.html","counting":"1"}
+								,{"module_id":"m_007_008","name":"VAS(2) ","table_id":"20006516","url":"/modules/dynamic/cbtcpap07/task/VAS.html","counting":"1"}
+								,{"module_id":"m_007_009","name":"3-Back ","table_id":"20006498","url":"/modules/dynamic/cbtcpap07/task/Nback.html","counting":"1"}
+								,{"module_id":"m_007_010","name":"VAS(3) ","table_id":"20006517","url":"/modules/dynamic/cbtcpap07/task/VAS.html","counting":"1"}
+								,{"module_id":"m_007_011","name":"ESS","table_id":"20006503","url":"/modules/dynamic/cbtcpap07/task/ESS.html","counting":"1"}
+								,{"module_id":"m_007_012","name":"PSQI","table_id":"20006510","url":"/modules/dynamic/cbtcpap07/task/PSQI.html","counting":"1"}
+								,{"module_id":"m_007_013","name":"DASS","table_id":"20006502","url":"/modules/dynamic/cbtcpap07/task/DASS.html","counting":"1"}
+								,{"module_id":"m_007_014","name":"FOSQ","table_id":"20006505","url":"/modules/dynamic/cbtcpap07/task/FOSQ.html","counting":"1"}
+								,{"module_id":"m_007_015","name":"Fatigue Severity Scale (FSS)","table_id":"20006504","url":"/modules/dynamic/cbtcpap07/task/FSS.html","counting":"1"}
+								,{"module_id":"m_007_016","name":"SCT (Social Cognitive Theory)","table_id":"20006511","url":"/modules/dynamic/cbtcpap07/task/SCT.html","counting":"1"}
+								,{"module_id":"m_007_017","name":"Baseline PSG (Sandman)","table_id":"20006509","url":"/modules/dynamic/cbtcpap07/task/PSG_Sandman.html","counting":"1"}
+								,{"module_id":"m_007_018","name":"Baseline PSG (Alice)","table_id":"20006501","url":"/modules/dynamic/cbtcpap07/task/PSG_Alice.html","counting":"1"}
+								,{"module_id":"m_007_019","name":"Baseline PSG (Compumedics)","table_id":"20006500","url":"/modules/dynamic/cbtcpap07/task/PSG_Compumedics.html","counting":"1"}
+									]},
+							{"name":"8. Practice battery","modules":[
+								{"module_id":"m_008_001","name":"Practice LCT","table_id":"20006520","url":"/modules/dynamic/cbtcpap07/task/LCT.html","counting":"1"}
+								,{"module_id":"m_008_002","name":"Practice Stroop(text)","table_id":"20006522","url":"/modules/dynamic/cbtcpap07/task/Stroop.html","counting":"1"}
+								,{"module_id":"m_008_003","name":"Practice Stroop(Colour)","table_id":"20006521","url":"/modules/dynamic/cbtcpap07/task/Stroop.html","counting":"1"}
+								,{"module_id":"m_008_004","name":"Practice 2-Back","table_id":"20006518","url":"/modules/dynamic/cbtcpap07/task/Nback.html","counting":"1"}
+								,{"module_id":"m_008_005","name":"Practice 3-Back","table_id":"20006519","url":"/modules/dynamic/cbtcpap07/task/Nback.html","counting":"1"}
+							]}
+							,{"name":"Special Forms (Un-Scheduled Encounter)","modules":[
+									{"module_id":"m_009_001","name":"Adverse Event","table_id":"20006523","url":"/modules/dynamic/cbtcpap07/task/Adverse_Event.html","counting":"1"}
+									,{"module_id":"m_009_002","name":"Concom Medications","table_id":"20006524","url":"/modules/dynamic/cbtcpap07/task/Concom_Medications.html","counting":"1"}
+									,{"module_id":"m_009_003","name":"CPAP Call Record","table_id":"20006525","url":"/modules/dynamic/cbtcpap07/task/call_log.html","counting":"1"}
+									,{"module_id":"m_009_004","name":"File Notes","table_id":"20006526","url":"/modules/dynamic/cbtcpap07/task/File_Notes.html","counting":"1"}
+									,{"module_id":"m_009_005","name":"Serious Adverse Event","table_id":"20006527","url":"/modules/dynamic/cbtcpap07/task/Serious_Adverse_Event.html","counting":"1"}
+									,{"module_id":"m_009_006","name":"Serious Adverse Event Follow Up","table_id":"20006528","url":"/modules/dynamic/cbtcpap07/task/Serious_Adverse_Event_Follow_Up.html","counting":"1"}
+
+
+							]}
+
+						]}
+					]
 			}
 		}
