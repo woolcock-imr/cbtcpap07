@@ -2,7 +2,7 @@ var _task_fields='';
 //-------------------------------------
 $('#new__ID').hide();
 $('#save__ID').hide();
-var sql0="with pt as (select VolunteerID_A=S2,RowNum=row_number() over (order by UID)  from [TABLE-"+_mlist[_ids.participant].table_id+"] where s1='cbtcpap07')";
+var sql0="with pt as (select VolunteerID_A=S2,RowNum=row_number() over (order by S2)  from [TABLE-"+_mlist[_ids.participant].table_id+"] where s1='23')";
 sql0+=",task0 as (select VolunteerID_B=S2,Information,ID,PID,UID,PUID,DateTime,Author from [TABLE-"+_db_pid+"-@S1] )";
 sql0+=",task as (select VolunteerID_A,Information,ID,PID,UID,PUID,DateTime,Author,RowNum from pt left join task0 on VolunteerID_A=VolunteerID_B)";
 //-------------------------------------

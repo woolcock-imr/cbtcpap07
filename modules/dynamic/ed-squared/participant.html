@@ -26,7 +26,7 @@
             }
         }
         //-------------------------------------
-		var sql0="with tb as (select Information,ID,PID,UID,PUID,S1,S3,DateTime,Author,RowNum=row_number() over (order by UID)  from [TABLE-"+_db_pid+"-@S1] where s1='cbtcpap07')";
+		var sql0="with tb as (select Information,ID,PID,UID,PUID,S1,S3,DateTime,Author,RowNum=row_number() over (order by UID)  from [TABLE-"+_db_pid+"-@S1] where s1='ed-squared')";
 		//-------------------------------------
 		_set_req=function(){
 			var sql=sql0+" select Information,ID,PID,UID,PUID,S1,S3,DateTime,Author,RowNum from tb where RowNum between @I6 and @I7";
